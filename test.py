@@ -36,5 +36,24 @@
   
 8.List to a string :''.join(list)
   
-9.
+9.Find the position of a  substring within the string
+  testString1.find('xxy')
+  testString1.rfind('l')
+
+10.Text Allignment
+    width = 20
+    print 'HackerRank'.ljust(width,'-')
+    print 'HackerRank'.center(width,'-')
+    print 'HackerRank'.rjust(width,'-')
+    HackerRank---------- 
+    -----HackerRank-----
+    ----------HackerRank
+ 
+11.Text Wrapping
+   print textwrap.fill(S,w) : line by line
+   print textwrap.wrap(S,w) : lists
+
+12. 
+    
+    
   
