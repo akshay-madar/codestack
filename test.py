@@ -49,11 +49,36 @@
     -----HackerRank-----
     ----------HackerRank
  
-11.Text Wrapping
-   print textwrap.fill(S,w) : line by line
-   print textwrap.wrap(S,w) : lists
+11.Text Wrapping 
+   print textwrap.fill(string,max_width) : breaking a paragraph or long string in line by line 
+   print textwrap.wrap(string,max_width) : lists
 
-12. 
+12. Supressing next line print
+    for i in range(1, n+1):
+        print(i, end = '') # end forces the print to come on the same line
+
+13. Reverse a list
+    list.reverse()
     
+14. Finding number of occurences/index numbers of a substring in a string
+    def count_substring(string, sub_string):
+      count = [i for i in range(len(string)) if string.startswith(sub_string, i)]
+      return len(count) # for number of occurences
+      return count # for list containiing index numbers of occurences
+ 
+15. String validators: syntax - string.func()
+    isdigit()
+    isalpha()
+    isalnum()
+    islower()
+    isupper()
+
+16. Capitalize first letter of each word in a string
+    import string
+    answer = string.capwords(sentence, sep = None)
+
+17. Finding all possible substrings in a string
+    length = len(input_string)
+    print [input_string[i:j+1] for i in range(0, length) for j in xrange(i,length)]
     
-  
+18. 
