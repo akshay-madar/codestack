@@ -81,4 +81,6 @@
     length = len(input_string)
     print [input_string[i:j+1] for i in range(0, length) for j in xrange(i,length)]
     
-18. 
+18. Sort: i) sorted(list)
+         ii) sort.list()
+             print(list)
