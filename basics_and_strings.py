@@ -84,15 +84,10 @@
 18. Sort: i) sorted(list)
          ii) sort.list()
              print(list)
-      
-23. To check whether the dictionary has the key :
-    if dic[key]:
-      True
-      
-24. Storing index as value:
-    for i in range(0,n):
-    d[raw_input()].append(i+1)
-    
+
+19. EOF - End of file error. If the input is initiated once, we can call the function only once. Other wise, we get EOF error. 
+
+20. The major difference is that sets, unlike lists or tuples, cannot have multiple occurrences of the same element and store unordered values.
 
 21. List to dictionary: 
     Collections:i) A counter is a container that stores elements as dictionary keys, 
@@ -106,15 +101,12 @@
  
 22. Hashable objects: which has fixed function and unchangeable. Ex: tuple, int, string
 
-
-    
-
-    
-
-18. EOF - End of file error. If the input is initiated once, we can call the function only once. Other wise, we get EOF error. 
-
-19. The major difference is that sets, unlike lists or tuples, cannot have multiple occurrences of the same element and store unordered values.
-
-20.
+23. To check whether the dictionary has the key :
+    if dic[key]:
+      True
+      
+24. Storing index as value:
+    for i in range(0,n):
+    d[raw_input()].append(i+1)
 
 
