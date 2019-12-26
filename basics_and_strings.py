@@ -80,9 +80,24 @@
 17. Finding all possible substrings in a string
     length = len(input_string)
     print [input_string[i:j+1] for i in range(0, length) for j in xrange(i,length)]
+   
+18. Sort: i) sorted(list)
+         ii) sort.list()
+             print(list)
+      
+23. To check whether the dictionary has the key :
+    if dic[key]:
+      True
+      
+24. Storing index as value:
+    for i in range(0,n):
+    d[raw_input()].append(i+1)
     
+    
+
 18. EOF - End of file error. If the input is initiated once, we can call the function only once. Other wise, we get EOF error. 
 
 19. The major difference is that sets, unlike lists or tuples, cannot have multiple occurrences of the same element and store unordered values.
 
 20.
+
