@@ -93,6 +93,22 @@
     for i in range(0,n):
     d[raw_input()].append(i+1)
     
+
+21. List to dictionary: 
+    Collections:i) A counter is a container that stores elements as dictionary keys, 
+                 and their counts are stored as dictionary values.
+                ii) A Counter is a dict subclass for counting hashable objects. 
+                    It is an unordered collection where elements are stored as dictionary keys and their counts are stored as dictionary values.
+                    Counts are allowed to be any integer value including zero or negative counts.
+                    The Counter class is similar to bags or multisets in other languages.
+    from collections import Counter
+    print(Counter(myList).items()) : returns the dictionary
+ 
+22. Hashable objects: which has fixed function and unchangeable. Ex: tuple, int, string
+
+
+    
+
     
 
 18. EOF - End of file error. If the input is initiated once, we can call the function only once. Other wise, we get EOF error. 
@@ -100,4 +116,5 @@
 19. The major difference is that sets, unlike lists or tuples, cannot have multiple occurrences of the same element and store unordered values.
 
 20.
+
 
