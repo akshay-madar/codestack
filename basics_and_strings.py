@@ -81,4 +81,8 @@
     length = len(input_string)
     print [input_string[i:j+1] for i in range(0, length) for j in xrange(i,length)]
     
-18. 
+18. EOF - End of file error. If the input is initiated once, we can call the function only once. Other wise, we get EOF error. 
+
+19. The major difference is that sets, unlike lists or tuples, cannot have multiple occurrences of the same element and store unordered values.
+
+20.
