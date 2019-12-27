@@ -177,3 +177,9 @@
               (3, [3, 3])
               (2, [2, 2])
               (1, [1, 1])
+34. Getattr: The getattr() function returns the value of the specified attribute from the specified object.
+     getattr(object, attribute, default)
+    for _ in range(int(input())):
+      inp = input().split()
+      getattr(d, inp[0])(*[inp[1]] if len(inp) > 1 else [])
+    print(*[item for item in d])
