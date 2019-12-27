@@ -189,5 +189,12 @@
     d = defaultdict(lambda: -1)
     defaultdict will never raise a KeyError. Any key that does not exist gets the value returned by the default value, in this case -1.
 
-36. 
+36. from collections import OrderedDict
+    It is a dictionary where keys maintain the order in which they are inserted.
+    
+    ordered_dictionary = OrderedDict()
+    for _ in range(int(input())):
+        item, price = input().rsplit(' ', 1) # 1 specifies the number of times split can happen
+        ordered_dictionary[item] = ordered_dictionary.get(item, 0) + int(price) # get retrieves the value from the container. O specifies the default value to be returned
+    [print(item, ordered_dictionary[item]) for item in ordered_dictionary]
 
