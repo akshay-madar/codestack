@@ -158,18 +158,14 @@
 31. Args & Kwargs: [def(*agrs), def(*kwargs)]
     https://www.geeksforgeeks.org/args-kwargs-python/
 
-  
-  
-  
-  
 
-25. import math
+32. import math
     math.degrees() # to convert angle calculation to degrees
     math.atan() # to calculate tan of an angle
     pow(x, 2) # raise x to the power of 2. Both pow() and math.pow() are slower than ** 
     divmod(177, 10) # gives both - quotient and remainder of the division in a tuple ---> answer = (17, 7)
 
-26. itertools:
+33. itertools:
     from itertools import permutations/combinations/combinations_with_replacement
     print list(permutations('abc',3))
     answer = [('a', 'b', 'c'), ('a', 'c', 'b'), ('b', 'a', 'c'), ('b', 'c', 'a'), ('c', 'a', 'b'), ('c', 'b', 'a')]
