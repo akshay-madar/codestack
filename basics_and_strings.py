@@ -207,4 +207,16 @@
         item, price = input().rsplit(' ', 1) # 1 specifies the number of times split can happen
         ordered_dictionary[item] = ordered_dictionary.get(item, 0) + int(price) # get retrieves the value from the container. O specifies the default value to be returned
     [print(item, ordered_dictionary[item]) for item in ordered_dictionary]
+    
+ 37. To know the the type of error:
+     for i in range(int(input())):
+     try:
+        a,b=map(int,input().split())
+        print(a//b)
+     except Exception as e:
+        print("Error Code:",e)
+        
+ 38. Regex : Reg. exp. is a sequence of characters that define a search pattern. 
+     Patterns are used by string searching algorithms for "find" or "find and replace" operations on strings, 
+     or for input validation.
 
