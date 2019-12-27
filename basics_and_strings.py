@@ -97,7 +97,8 @@
                     Counts are allowed to be any integer value including zero or negative counts.
                     The Counter class is similar to bags or multisets in other languages.
     from collections import Counter
-    print(Counter(myList).items()) : returns the dictionary
+    print(Counter(myList).items()) : returns the dictionary ( Also can use .keys, .values)
+      
  
 22. Hashable objects: which has fixed function and unchangeable. Ex: tuple, int, string
 
@@ -108,5 +109,58 @@
 24. Storing index as value:
     for i in range(0,n):
     d[raw_input()].append(i+1)
+ 
+25. Named Tuple:    Link
+  
+     i)from collections import namedtuple
+      Marks = namedtuple('Marks', 'physics, chemistry, biology')
+      m1 = Marks('87', '54', '69')
+      print(m1.chemistry)
+      
+    ii) m2 = Marks._make(['63','72','94'])
+        print(m2)
+      
+    Example:
+      from collections import namedtuple
+
+      (n, categories) = (int(input()), input().split())
+      Grade = namedtuple('Grade', categories)
+      marks = [int(Grade._make(input().split()).MARKS) for _ in range(n)]
+      print((sum(marks) / len(marks)))
+ 
+26. Collections- Python 
+    https://towardsdatascience.com/a-hands-on-guide-to-python-collections-aa350cb399e3
+    
+    
+27. To count the unique elements in the list:
+    Either use set or counter
+
+28. Deque:
+    The deque is a list optimized for inserting and removing items.
+    Deques support thread safe, memory efficient appends and pops from either side of the deque with approximately the same  
+    O(1) performance in either direction
+    d=deque()
+    list = [1, 2, 3, 4, 5]
+    deq = deque(list)
+    d.rotate(3)
+    d.popleft() : gives the the left most object
+    
+29. Itertools:
+    product(A, B) returns the same as ((x,y) for x in A for y in B).
+    
+30. Append and Extend:
+    append adds an element to a list, and extend concatenates the first list 
+    with another list (or another iterable, not necessarily a list.)
+    x = [1, 2, 3]
+    x.append([4, 5]) : [1, 2, 3, [4, 5]]
+    x.extend([4, 5]) : [1, 2, 3, 4, 5]
+
+31. Args & Kwargs: [def(*agrs), def(*kwargs)]
+    https://www.geeksforgeeks.org/args-kwargs-python/
+
+  
+  
+  
+  
 
 
