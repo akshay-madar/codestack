@@ -109,4 +109,21 @@
     for i in range(0,n):
     d[raw_input()].append(i+1)
 
+25. import math
+    math.degrees() # to convert angle calculation to degrees
+    math.atan() # to calculate tan of an angle
+    pow(x, 2) # raise x to the power of 2. Both pow() and math.pow() are slower than ** 
+    divmod(177, 10) # gives both - quotient and remainder of the division in a tuple ---> answer = (17, 7)
 
+26. itertools:
+    from itertools import permutations/combinations/combinations_with_replacement
+    print list(permutations('abc',3))
+    answer = [('a', 'b', 'c'), ('a', 'c', 'b'), ('b', 'a', 'c'), ('b', 'c', 'a'), ('c', 'a', 'b'), ('c', 'b', 'a')]
+    
+    from itertools import groupby
+    for (key,group) in groupby(numbers): 
+    print (key,list(group))
+    answer = (1, [1, 1, 1])
+              (3, [3, 3])
+              (2, [2, 2])
+              (1, [1, 1])
