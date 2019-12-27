@@ -134,6 +134,7 @@
     
 27. To count the unique elements in the list:
     Either use set or counter
+    shoes = collections.Counter(map(int, raw_input().split()))
     
     from operator import itemgetter
 
