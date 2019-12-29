@@ -59,6 +59,7 @@
 
 13. Reverse a list
     list.reverse()
+    print(list)
     
 14. Finding number of occurences/index numbers of a substring in a string
     def count_substring(string, sub_string):
@@ -238,5 +239,21 @@
      print(string.strip('   Geeks')) : for
      string = 'www.Geeksforgeeks.org'
      print(string.strip('.grow')) : Geeksforgeeks
+ 
+41. Sorting of lists of lists based on particular index : 
+         sorted(arr,key = lambda x: x[k])
+
+42. any([1>0,1==0,1<0]) : True
+    all(['a'<'b','b'<'c']) : True
+      
+43. List Comprehensions: 
+    [i for i in range(8) if i%2!=0]
+    [i for i in range(8) if i%2==0 if i%3==0] : Nested Loop
+    ["Even" if i%2==0 else "Odd" for i in range(8)] : If-Else 
+    all(i>0 for i in ls) - postivity check using for loop format
+    any(str(i)==str(i)[::-1] for i in ls) - palindrome check unding for loop format
+  
+44. Palindrome/Reverse 
+    i[::]=i[::-1]
       
 
