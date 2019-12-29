@@ -232,5 +232,11 @@
          [(1, 6, 7), (2, 5, 8), (3, 4, 9)]
          for i in zip(*X):
             sum(i)/len(i)
- 40. 
+ 40. Strip: Removes all the leading and trailing spaces from a string
+     string = '   Geeks for Geeks   '
+     print(string.strip()) : Geeks for Geeks
+     print(string.strip('   Geeks')) : for
+     string = 'www.Geeksforgeeks.org'
+     print(string.strip('.grow')) : Geeksforgeeks
+      
 
