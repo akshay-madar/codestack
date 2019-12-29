@@ -82,7 +82,7 @@
     length = len(input_string)
     print [input_string[i:j+1] for i in range(0, length) for j in xrange(i,length)]
    
-18. Sort: i) sorted(list)
+18. Sort: i) sorted(list) : gives the list
          ii) sort.list()
              print(list)
 
@@ -242,6 +242,7 @@
  
 41. Sorting of lists of lists based on particular index : 
          sorted(arr,key = lambda x: x[k])
+         
 
 42. any([1>0,1==0,1<0]) : True
     all(['a'<'b','b'<'c']) : True
