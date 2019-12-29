@@ -256,5 +256,6 @@
   
 44. Palindrome/Reverse 
     i[::]=i[::-1]
+45. Filter: l = list(filter(lambda x: x > 10 and x < 80, l))
       
 
