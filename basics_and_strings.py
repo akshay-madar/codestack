@@ -219,8 +219,35 @@
         
  38. Regex : Reg. exp. is a sequence of characters that define a search pattern. 
      Patterns are used by string searching algorithms for "find" or "find and replace" operations on strings, 
-     or for input validation.
+     or for input validation. 
+     
+     https://www.w3schools.com/python/python_regex.asp
       
+     import re
+     re.split(r"[.,]", "any sample string containing , and .") - square parenthesis ensure that the string is split on both- . and ,
+      
+     >>> import re
+      >>> m = re.match(r'(\w+)@(\w+)\.(\w+)','username@hackerrank.com') - w is for words, + is for all occurences
+      >>> m.group(0)       # The entire match 
+      'username@hackerrank.com'
+      >>> m.group(1)       # The first parenthesized subgroup.
+      'username'
+      >>> m.group(2)       # The second parenthesized subgroup.
+      'hackerrank'
+      >>> m.group(3)       # The third parenthesized subgroup.
+      'com'
+      >>> m.group(1,2,3)   # Multiple arguments give us a tuple.
+      ('username', 'hackerrank', 'com')
+      >>> m.groups()
+      ('username', 'hackerrank', 'com')
+      >>> m = re.match(r'(?P<user>\w+)@(?P<website>\w+)\.(?P<extension>\w+)','myname@hackerrank.com')
+      >>> m.groupdict()
+      {'website': 'hackerrank', 'user': 'myname', 'extension': 'com'}
+      
+      
+      m = re.search(r"([a-z0-9])\1+", input()) - more than 1 occurences for group 1
+      print(m.group(1) if m else -1)
+
  39. Zip Fucntions: 
      This function returns a list of tuples. 
      The th tuple contains the th element from each of the argument sequences or iterables.
