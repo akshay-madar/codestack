@@ -221,11 +221,14 @@
      Patterns are used by string searching algorithms for "find" or "find and replace" operations on strings, 
      or for input validation. 
       
-     Find, Search, Split:
+     Find, Search, Split, Subject:
      str = "The rain in Spain"
      x = re.findall("ai", str): ['ai', 'ai']
      x = re.search("\s", str): If there is more than one match, only the first occurrence of the match will be returned : 3
      x = re.split("\s", str, 1): ['The','rain in Spain']
+     x = re.sub("\s", "9", str) :The9rain9in9Spain
+     x = re.sub("\s", "9", str, 2):The9rain9in Spain
+      
      
      https://www.w3schools.com/python/python_regex.asp
       
