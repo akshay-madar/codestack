@@ -307,6 +307,26 @@
     7. Loc and iloc - labels and indexes
     8. Convert categorical columns to numerical
         tx_class = pd.get_dummies(tx_cluster)
-    
-      
-
+    9. classification_report(y_test, y_pred) :  gets all precision, recall, f1-score, support
+    10. #drop duplicates
+        data_day_order = data_day_order.drop_duplicates(subset=['CustomerID','InvoiceDay'],keep='first')
+    11. by using shift, we create new columns with the dates of last 3 purchases
+        #shifting last 3 purchase dates
+        tx_day_order['PrevInvoiceDate'] = tx_day_order.groupby('CustomerID')['InvoiceDay'].shift(1)
+        tx_day_order['T2InvoiceDate'] = tx_day_order.groupby('CustomerID')['InvoiceDay'].shift(2)
+        tx_day_order['T3InvoiceDate'] = tx_day_order.groupby('CustomerID')['InvoiceDay'].shift(3)
+    12. Drop Columns
+        tx_class = tx_class.drop('NextPurchaseDay',axis=1)
+    13. Cross-validation :
+            models.append(("KNN",KNeighborsClassifier()))
+            #measure the accuracy 
+            for name,model in models:
+                kfold = KFold(n_splits=2, random_state=22)
+                cv_result = cross_val_score(model,X_train,y_train, cv = kfold,scoring = "accuracy")
+                print(name, cv_result)
+     14. How can we be sure of the stability of our machine learning model across different datasets? 
+         Also, what if there is a noise in the test set we selected.
+         Cross Validation is a way of measuring this. 
+         It provides the score of the model by selecting different test sets.
+         If the deviation is low, it means the model is stable. 
+         In our case, the deviations between scores are acceptable (except Decision Tree Classifier).
