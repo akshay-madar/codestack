@@ -330,3 +330,7 @@
          It provides the score of the model by selecting different test sets.
          If the deviation is low, it means the model is stable. 
          In our case, the deviations between scores are acceptable (except Decision Tree Classifier).
+          
+     15. #represent month in date field as its first day
+        df_sales['date'] = df_sales['date'].dt.year.astype('str') + '-' + df_sales['date'].dt.month.astype('str') + '-01'
+        df_sales['date'] = pd.to_datetime(df_sales['date'])
