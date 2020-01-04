@@ -293,5 +293,20 @@
 44. Palindrome/Reverse 
     i[::]=i[::-1]
 45. Filter: l = list(filter(lambda x: x > 10 and x < 80, l))
+  
+46. Data Frames:
+    1. columns data type: data.dtypes
+    2. String to datetime : tx_data['InvoiceDate'] = pd.to_datetime(tx_data['InvoiceDate'])
+    3. creating YearMonth field for the ease of reporting and visualization:
+      tx_data['InvoiceYearMonth'] = tx_data['InvoiceDate'].map(lambda date: 100*date.year + date.month)
+    4. Group by :
+      tx_revenue = tx_data.groupby(['InvoiceYearMonth'])['Revenue'].sum().reset_index()
+    5. Percentage growth: tx_revenue['MonthlyGrowth'] = tx_revenue['Revenue'].pct_change()
+    6. Rows and Columns filtering : 
+      https://towardsdatascience.com/data-science-with-python-intro-to-loading-and-subsetting-data-with-pandas-9f26895ddd7f
+    7. Loc and iloc - labels and indexes
+    8. Convert categorical columns to numerical
+        tx_class = pd.get_dummies(tx_cluster)
+    
       
 
