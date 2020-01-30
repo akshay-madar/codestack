@@ -4,23 +4,23 @@ ReadMe File
 
 Detailed overview of all the steps to follow:
 
-	1.) Run the “product and review links.ipynb” file to get the links of individual categories. Make sure to change the link for each category. The category links will be dynamic and updates 
+	1.) Run the â€œproduct and review links.ipynbâ€ file to get the links of individual categories. Make sure to change the link for each category. The category links will be dynamic and updates 
     	    every hour. After exporting the results to CSV file, the product links in the csv file have to be considered only till "ProducID". This needs to be done because, the link gets changed 
     	    dynamically every hour and the hyperlink changes. 		Output file obtained: cumulative links.csv
 
-	2.) Use the product links and review links obtained from the previous step and run the “Reviews and # of images.ipynb” to scrape the top reviews of each of the product. 
+	2.) Use the product links and review links obtained from the previous step and run the â€œReviews and # of images.ipynbâ€ to scrape the top reviews of each of the product. 
             This file also gives number of images displayed for each product.     Output file obtained: cumulative review.csv
  
 
-	3.) Run the “Sentiment Analysis.ipynb” file to get the sentiment score of each review. Azure API is used to get the sentiment score. 	After appending the sentiment scores to the file
+	3.) Run the â€œSentiment Analysis.ipynbâ€ file to get the sentiment score of each review. Azure API is used to get the sentiment score. 	After appending the sentiment scores to the file
             generated in step 2 we obtain cumulative sentiments.csv
 
-	4.) Run the “Product Attributes.ipynb” file to get the attributes of each product. Following attributes can be obtained (price, average rating, number of ratings, number of reviews,
+	4.) Run the â€œProduct Attributes.ipynbâ€ file to get the attributes of each product. Following attributes can be obtained (price, average rating, number of ratings, number of reviews,
             number of answered questions, prime category, Discount) cumulative sentiments.csv
 
-	5.) Use “Data cleaning.ipynb” to merge all the datasets obtained above. output file obtained: modelfile.csv
+	5.) Use â€œData cleaning.ipynbâ€ to merge all the datasets obtained above. output file obtained: modelfile.csv
 
-	6.) Use “LinearRegression.R” to get the regression results.
+	6.) Use â€œLinearRegression.Râ€ to get the regression results.
 
 
 Data Dictionary for the csv file : modelfile.csv
