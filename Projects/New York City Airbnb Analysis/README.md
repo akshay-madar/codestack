@@ -5,3 +5,5 @@
 • Identified parameters responsible for increase in the price of an Airbnb to enable property owners benchmark their offer prices
 
 • Visualized heatmap of airbnb distribution across NYC
+
+
