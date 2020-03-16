@@ -1,5 +1,3 @@
-Kaggle Competition link: https://www.kaggle.com/c/mgmt571/data
-
 • Generated optimized lists of AirBnbs in New York City given combinations of parameters of budget, number of days of stay, availability probability of the listing and the number of reviews
 
 • Performed cluster segmentation wrt various Airbnb attributes to extract useful actionable insights
