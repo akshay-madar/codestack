@@ -13,3 +13,5 @@ Results:
 2. Leverage NLP to understand critics reviews
 3. Movie Business Landscape Analysis 
 
+Visit Youtube link: https://www.youtube.com/watch?v=wpuIuco7MX0
+
