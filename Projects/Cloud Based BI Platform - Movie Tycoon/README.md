@@ -15,3 +15,6 @@ Results:
 
 Visit Youtube link: https://www.youtube.com/watch?v=wpuIuco7MX0
 
+### Tableau Dashboard
+![Methodology](https://github.com/akshay-madar/codestack/blob/master/Projects/Cloud%20Based%20BI%20Platform%20-%20Movie%20Tycoon/Movie%20Tycoon.png)
+
