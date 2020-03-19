@@ -1,7 +1,8 @@
-# Quotes to Scrape
-Scraped all quotes from quotes.toscrape.com
+# Yelp
+Scraped data for a yelp restaurant
 
-Website Link: http://quotes.toscrape.com/js/
+## Website Link: 
+https://www.yelp.com/biz/j-wata-temaki-bar-san-diego-4?osq=restauran
 
-### Website Layout
-![Methodology](https://github.com/akshay-madar/codestack/blob/master/Web%20Scraping/quotes.toscrape.com/quotes_to_scrape.PNG)
+## Website Layout
+![Methodology](https://github.com/akshay-madar/codestack/blob/master/Web%20Scraping/yelp/yelp.PNG)
