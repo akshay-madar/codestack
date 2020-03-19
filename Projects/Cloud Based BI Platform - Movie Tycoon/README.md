@@ -13,5 +13,8 @@ Results:
 2. Leverage NLP to understand critics reviews
 3. Movie Business Landscape Analysis
 
+### Youtube link:
+https://www.youtube.com/watch?v=wpuIuco7MX0
+
 ### Tableau Dashboard
 ![Methodology](https://github.com/akshay-madar/codestack/blob/master/Projects/Cloud%20Based%20BI%20Platform%20-%20Movie%20Tycoon/Movie%20Tycoon.png)
