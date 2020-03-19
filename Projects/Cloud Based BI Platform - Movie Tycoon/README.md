@@ -1,6 +1,6 @@
 # Movie-Tycoon : Big Data for movies
 Problem Statement:
-Movie Tycoon is a platform which helps movie investors by providing insights on where and whom to invest the money on?
+Movie Tycoon is a platform which helps movie investors by providing insights on where and whom to invest the money on.
 
 Process:
 
@@ -13,7 +13,7 @@ Results:
 2. Leverage NLP to understand critics reviews
 3. Movie Business Landscape Analysis
 
-### Youtube link:
+## Youtube link:
 https://www.youtube.com/watch?v=wpuIuco7MX0
 
 ### Tableau Dashboard
