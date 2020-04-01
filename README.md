@@ -1,9 +1,9 @@
 ## Akshay Madar, MS BAIM, Purdue University (Class of 2020)
-Hello, I am a graduate student at Purdue University, pursuing MS in Business Analytics from Krannert School of Management. Most recently, I worked for Wipro Limited in India, as a Data Scientist, getting my hands dirty with large data sets for ETL and predictive analytics solutions for clients pertaining to BFSI industry. My strenghts include Customer Analytics, Ecommerce Analytics, Marketing Analytics, Financial Analytics.
+Hello, I am a graduate student at Purdue University, pursuing MS in Business Analytics from Krannert School of Management. Most recently, I worked for Wipro Limited in India, as a Data Scientist, getting my hands dirty with large data sets for ETL and predictive analytics solutions for clients pertaining to BFSI industry. My strengths include Customer Analytics, Ecommerce Analytics, Marketing Analytics, Financial Analytics and Business Intelligence.
 
 With 2+ years of work experience in analytics under my belt, and the skills I have gained and polished while at Purdue, I am looking for data driven roles at organizations which share my passion of harnessing data for insights. 
 
-You can find me on [LinkedIn](https://www.linkedin.com/in/akshay-madar-4b1871113/)
+You can find me on [LinkedIn](https://www.linkedin.com/in/akshay-madar-4b1871113/).
 
 ### What is codestack?
 Here you will find the scope of my indulgence in data science and machine learning:
