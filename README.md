@@ -22,6 +22,6 @@ I love learning new things, and my GitHub repo will always be a work in progress
   - Programming and Tools: Python, R, HQL, SQL, SAS, SSIS, SSMS, MS Office, Tableau
   - Machine Learning: Classification, Regression, Hypothesis Testing, KNN, PCA, LDA, Lasso/Ridge shrinkage, SVM, Tree-based Models, GLM,      ANOVA, LSTM, NLP, Web Scraping, A/B Testing, Linear Algebra, Survival Analysis, Neural Networks, Linear Progamming
 
-### My Top Strenghts:
+### My Top Strengths:
 Individualization | Restorative | Learner | Responsibility | Achiever
 
