@@ -11,6 +11,7 @@ Here you will find the scope of my indulgence in data science and machine learni
   1) Projects - academic and personal
   2) Leetcode and Hackerrank solutions for several coding problems that I have practiced over time
   3) Web scraping projects
+  4) Deep Learning - my foray into this vast field...
 
 I love learning new things, and my GitHub repo will always be a work in progress! I intend to continue my exploration in the fields of data science, machine learning and business intelligence, while also focussing on business applications that can be leveraged from the derived insights. I believe in harnessing data for the following 3 reasons:
   - make human life better 
