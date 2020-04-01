@@ -1,5 +1,5 @@
 # Quotes to Scrape
-Scraped all quotes from quotes.toscrape.com
+Scraped all data from quotes.toscrape.com
 
 Website Link: http://quotes.toscrape.com/js/
 
