@@ -11,7 +11,7 @@ I love learning new things, and my GitHub repo will always be a work in progress
   - commercialize data opportunities
 
 ### A bit about myself:
-Hello, I am a graduate student at Purdue University, pursuing MS in Business Analytics from Krannert School of Management (class of 2020). Most recently, I worked for Wipro Limited in India, as a Data Scientist, getting my hands dirty with large data sets for ETL and predictive analytics solutions for clients pertaining to BFSI industry. My strengths include Customer Analytics, Ecommerce Analytics, Marketing Analytics, Financial Analytics and Business Intelligence.
+I am a graduate student at Purdue University, pursuing MS in Business Analytics from Krannert School of Management (class of 2020). Most recently, I worked for Wipro Limited in India, as a Data Scientist, getting my hands dirty with large data sets for ETL and predictive analytics solutions for clients pertaining to BFSI industry. My strengths include Customer Analytics, Ecommerce Analytics, Marketing Analytics, Financial Analytics and Business Intelligence.
 
 With 2+ years of work experience in analytics under my belt, and the skills I have gained and polished while at Purdue, I am looking for data driven roles at organizations which share my passion of harnessing data for insights. 
 
