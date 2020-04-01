@@ -18,9 +18,9 @@ I love learning new things, and my GitHub repo will always be a work in progress
   - commercialize data opportunities
 
 ### My key skills:
-  • Packages: Pandas, NumPy, Scikit learn, Matplotlib, Seaborn, Plotly, NLTK, Tensorflow, Keras, OR-Tools
-  • Programming and Tools: Python, R, HQL, SQL, SAS, SSIS, SSMS, MS Office, Tableau
-  • Machine Learning: Classification, Regression, Hypothesis Testing, KNN, PCA, LDA, Lasso/Ridge shrinkage, SVM, Tree-based Models, GLM,      ANOVA, LSTM, NLP, Web Scraping, A/B Testing, Linear Algebra, Survival Analysis, Neural Networks, Linear Progamming
+  - Packages: Pandas, NumPy, Scikit learn, Matplotlib, Seaborn, Plotly, NLTK, Tensorflow, Keras, OR-Tools
+  - Programming and Tools: Python, R, HQL, SQL, SAS, SSIS, SSMS, MS Office, Tableau
+  - Machine Learning: Classification, Regression, Hypothesis Testing, KNN, PCA, LDA, Lasso/Ridge shrinkage, SVM, Tree-based Models, GLM,      ANOVA, LSTM, NLP, Web Scraping, A/B Testing, Linear Algebra, Survival Analysis, Neural Networks, Linear Progamming
 
 ### My Top Strenghts:
 Individualization | Restorative | Learner | Responsibility | Achiever
