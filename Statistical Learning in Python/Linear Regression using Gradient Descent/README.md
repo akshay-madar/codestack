@@ -1,7 +1,7 @@
 Here, I have tried to implement linear regression using Gradient Descent Algorithm, based on learnings from Andrew Ng's course on Machine Learning.
 
 ### Gradient Descent Algorithm:
-
+```
 def gradient_descent(x, y, theta, iterations, alpha):
     past_costs = []
     past_thetas = [theta]
@@ -14,7 +14,10 @@ def gradient_descent(x, y, theta, iterations, alpha):
         past_thetas.append(theta)
 
     return past_thetas, past_costs
+```
 
+```
 # getting new values back for theta and costs
 past_thetas, past_costs = gradient_descent(x, y, theta, iterations, alpha)
 theta = past_thetas[-1]
+```
