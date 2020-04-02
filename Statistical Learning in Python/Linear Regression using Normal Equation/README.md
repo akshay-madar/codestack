@@ -3,9 +3,9 @@ Here, I have tried to implement linear regression using Normal Equation, ie. usi
 ### Method to solve for theta analytically:
 theta = inv(X'X).(X'Y)                , where...
 
-theta is coefficient vector
-Y is dependent variable vector
-X is matrix containing independent variables, with an additional row of 1's for intercept.
+- theta is coefficient vector
+- Y is dependent variable vector
+- X is matrix containing independent variables, with an additional row of 1's for intercept
 
 ### Comparison with Gradient Descent:
   1) no need to choose alpha -> learning rate
