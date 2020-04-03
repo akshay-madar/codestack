@@ -1,5 +1,9 @@
 Here, I try to implement mixed-integer linear programming, based on the 'branch and cut' algorithm. I have used 'ortools' as my choice of library.
 
+```
+from ortools.linear_solver import pywraplp
+```
+
 ## How it helped my Industry Partner (Fortune 200 CPG Company):
 Specifically, I have shown how MILP can be used to implement optimization modeling for maximizing profit by creating SKU bundles of fast and slow moving products. 
 
