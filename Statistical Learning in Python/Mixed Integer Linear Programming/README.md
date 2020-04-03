@@ -8,4 +8,4 @@ More details about the above work, and related research can be found [here](http
 ## Branch and Bound Algo:
 Below is a brief summary about MILP and the associated alogorithm from my personal notes.
 
-[embed]https://drive.google.com/file/d/1Mh7Np35u68GEw_IkCrauQ5j4KYfXdvRl/view?usp=sharing[/embed]
+[embed][/embed]
