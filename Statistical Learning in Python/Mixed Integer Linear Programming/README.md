@@ -8,4 +8,4 @@ More details about the above work, and related research can be found [here](http
 ## Branch and Bound Algo:
 Below is a brief summary about MILP and the associated alogorithm from my personal notes.
 
-![https://github.com/akshay-madar/codestack/blob/master/Statistical%20Learning%20in%20Python/Mixed%20Integer%20Linear%20Programming/Branch%20and%20Bound.png]
+[Branch_and_Bound](https://github.com/akshay-madar/codestack/blob/master/Statistical%20Learning%20in%20Python/Mixed%20Integer%20Linear%20Programming/Branch%20and%20Bound.png)
