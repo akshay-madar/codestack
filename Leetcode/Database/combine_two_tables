@@ -1,0 +1,10 @@
+/* Write your PL/SQL query statement below */
+select firstname, lastname, city, state
+from address, person
+where person.personid = address.personid(+);
+
+
+/* Write your T-SQL query statement below */
+select firstname, lastname, city, state
+from address right join person
+on person.personid = address.personid;
