@@ -1,0 +1,5 @@
+/* Write your T-SQL query statement below */
+select employee.id, employee.month, sum(salary) over (partition by employee.id order by employee.month rows between unbounded preceding and current row) as salary
+from employee, (select id, max(month) mth from employee group by id ) tb1
+where employee.id = tb1.id and employee.month != tb1.mth
+order by employee.id, employee.month desc;
