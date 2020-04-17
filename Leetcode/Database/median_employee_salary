@@ -1,0 +1,6 @@
+select id, Company,Salary from(
+select *, row_number()over(partition by company order by salary) rk,
+count(salary) over(partition by company) n
+from Employee E1) tbl
+where (n%2=1 and rk=(n+1)/2) or (n%2=0 and rk = n/2) or (n%2=0 and rk=n/2+1)
+order by Company,salary
