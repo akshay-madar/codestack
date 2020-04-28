@@ -7,4 +7,13 @@ class Solution:
                 return [seen[remaining], i]
             seen[v] = i
         return []
-        
+
+
+        ############################ method-2
+        h_table = {}
+        for i in range(len(nums)):
+            diff = target - nums[i]
+            if diff in h_table and h_table[diff] != i:
+                return [h_table[diff], i]
+            else:
+                h_table[nums[i]] = i
