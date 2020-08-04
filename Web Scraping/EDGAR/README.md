@@ -1,5 +1,5 @@
 # EDGAR Filings
-Mined 10 K filings data from sec.com
+Mined 10 K filings data from sec.com. Please go through the 'ipynb' notebooks to take a look at the python scripts. The collected data is stored in the several 'txt' and 'csv' files that follow.
 
 ## Website Link: 
 https://www.sec.gov/edgar/searchedgar/companysearch.html
