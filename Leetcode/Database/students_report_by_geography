@@ -10,3 +10,17 @@ min(name)
     for continent in ([America], [Asia], [Europe])
 )
 as pvt
+
+
+# Write your MySQL query statement below
+with pvt as(
+select 
+case when continent = 'America' then name end as America, 
+case when continent = 'Europe' then name end as Europe,
+case when continent = 'Asia' then name end as Asia, 
+row_number() over (partition by continent order by name) rn
+from student)
+
+select min(America) as America, min(Asia) as Asia, min(Europe) as Europe 
+from pvt
+group by rn;
